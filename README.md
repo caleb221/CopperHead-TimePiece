@@ -32,6 +32,13 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
   3.7 LiPo Battery <br>
   ZH1.5 SMD Right Angle Connectors (4 and 2)  <br>
   right angle tactile switch <br>
+M3x4mm Screws (X6)<br>
+10mm Brass Standoffs (X3)<br>
+3D-Printed Case <br>
+Watch Strap (20mm Thick)<br>
+External FTDI/CP2102 USB-TTL converter<br>
+
+
 
 # Schematic
 
