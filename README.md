@@ -7,12 +7,14 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
 
 # Features
   Watch based around the ESP32 and HPDL1414. <br>
-  Auto update time with NTP in known WiFi Areas (SSIDS/Passwords saved in SPIFFS JSON file) <br>
+  Update time with NTP in known WiFi Areas (SSIDS/Passwords saved in SPIFFS JSON file) <br>
+  32Khz Crystal for accuracy during deep sleep<br>
   Temperature and Humidity readings <br>
-  **footprint is there but currently no way to solder on MPU-9250** <br>
+  Battery Charging and monitoring <br>
+  I2C/UART modular breakout for future sensors/ICs <br>
   Chrome Dino Game  <br>
   Space Invaders Game <br>
- 
+   **footprint is there but currently no way to solder on MPU-9250** <br>
 # Hardware
 
   ESP32 Wrover-B (4 or 8Mb) <br>
@@ -32,6 +34,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
   3.7 LiPo Battery <br>
   ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  <br>
   right angle tactile switch <br>
+  PCB (from Gerber File attached)<br>
   M3x4mm Screws (X6)<br>
   10mm Brass Standoffs (X3)<br>
   3D-Printed Case <br>
