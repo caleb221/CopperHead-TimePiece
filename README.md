@@ -46,7 +46,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
 # Schematic
 
 # TODO
-  Get a stencil so I can solder on the MPU-9250 <br>
+  Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
   Finish Android Application <br>
-  Finish BLE Server implementation <br>
+  Finish BLE Server implementation (accepts data and updates internal filesystem, still testing though!) <br>
   
