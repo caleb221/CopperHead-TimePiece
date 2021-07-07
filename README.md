@@ -1,8 +1,8 @@
 # CopperHead-TimePiece
 A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
-<img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/main/img/testPCB1.jpg?token=AKXQH3YYZEBM2NVUHRFITT3A4XQCA"
+<img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/testPCB1.jpg"
      width ="250" height="250">
-<img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/main/img/espTesterPCB1.jpg?token=AKXQH3526AK5OSW6O3Z2DE3A4XQIM"
+<img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/espTesterPCB1.jpg"
      width ="300" height="250" style="float:right">
 # IN PROGRESS
     --> waiting on shipping, and figuring out android dev docs has this project slowly moving along
@@ -21,13 +21,13 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
 
 
 # Schematic
-<img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/main/img/Schematic_esp32SmartWatch_2021-07-04.png?token=AKXQH3ZV47IGSXVE3X3JOEDA4XPGC" width="650" height="500">
+<img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Schematic_esp32SmartWatch_2021-07-04.png" width="650" height="500">
 
 # Gerber / BOM
        check out the Manufacturing Files for these!
        I got most components at LCSC (excluding HPDL-1414)
-  <img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/16721838f9afc799c3d2af968d995888bde5595f/img/cleanGreenFRONT.svg?token=AKXQH33OQTFMDUFL4546LFLA4XP6M" width="200" height ="200"><br>
-  <img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/16721838f9afc799c3d2af968d995888bde5595f/img/cleanGreenBACK.svg?token=AKXQH34CKATTBLCT5QWFXCTA4XPVG" width="200" height ="200" style="float:right">
+  <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenFRONT.svg" width="200" height ="200">
+  <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenBACK.svg" width="200" height ="200" style="float:right">
        
 # Hardware
   ESP32 Wrover-B (4 or 8Mb) <br>
