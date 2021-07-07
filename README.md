@@ -1,6 +1,9 @@
 # CopperHead-TimePiece
-A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
-
+A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
+<img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/main/img/testPCB1.jpg?token=AKXQH3YYZEBM2NVUHRFITT3A4XQCA"
+     width ="250" height="250">
+<img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/main/img/espTesterPCB1.jpg?token=AKXQH3526AK5OSW6O3Z2DE3A4XQIM"
+     width ="300" height="250" style="float:right">
 # IN PROGRESS
     --> waiting on shipping, and figuring out android dev docs has this project slowly moving along
       should be finished by August 2021
@@ -15,8 +18,18 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
   Chrome Dino Game  <br>
   Space Invaders Game <br>
    **footprint is there but currently no way to solder on MPU-9250** <br>
-# Hardware
 
+
+# Schematic
+<img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/main/img/Schematic_esp32SmartWatch_2021-07-04.png?token=AKXQH3ZV47IGSXVE3X3JOEDA4XPGC" width="650" height="500">
+
+# Gerber / BOM
+       check out the Manufacturing Files for these!
+       I got most components at LCSC (excluding HPDL-1414)
+  <img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/16721838f9afc799c3d2af968d995888bde5595f/img/cleanGreenFRONT.svg?token=AKXQH33OQTFMDUFL4546LFLA4XP6M" width="200" height ="200"><br>
+  <img src="https://raw.githubusercontent.com/caleb221/CopperHead-TimePiece/16721838f9afc799c3d2af968d995888bde5595f/img/cleanGreenBACK.svg?token=AKXQH34CKATTBLCT5QWFXCTA4XPVG" width="200" height ="200" style="float:right">
+       
+# Hardware
   ESP32 Wrover-B (4 or 8Mb) <br>
   HPDL-1414 Segmented Display  <br>
   0.91'' OLED Display <br>
@@ -40,11 +53,6 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED
   3D-Printed Case <br>
   Watch Strap (20mm Thick)<br>
   External FTDI/CP2102 USB-TTL converter<br>
-
-
-
-# Schematic
-
 # TODO
   Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
   Finish Android Application <br>
