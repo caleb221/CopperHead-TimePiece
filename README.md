@@ -1,5 +1,5 @@
 # CopperHead-TimePiece
-A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
+A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x35mm**<br>
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/testPCB1.jpg"
      width ="250" height="250">
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/espTesterPCB1.jpg"
