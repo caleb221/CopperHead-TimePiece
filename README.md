@@ -30,29 +30,29 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
   <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenBACK.svg" width="200" height ="200" style="float:right">
        
 # Hardware
-  ESP32 Wrover-B (4 or 8Mb) <br>
-  HPDL-1414 Segmented Display  <br>
-  0.91'' OLED Display <br>
-  SHT20 Temperature/Humidity Sensor <br>
-  MPU-9250 Gyroscope/Accelerometer/Magnetometer <br>
-  Tactile Switches (3) <br>
-  Various SMD Resistors/Capacitors <br>
-  32.768kHz ±20ppm Crystal <br>
-  TP4056 <br>
-  DW01A   <br>
-  FS8205A
-  HX4004 DC-DC Step up (LDO) <br>
-  TPS62203DBVR DC-DC Step Down (buck) <br>
-  10uH Inductor <br>
-  3.7 LiPo Battery <br>
-  ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  <br>
-  right angle tactile switch <br>
-  PCB (from Gerber File attached)<br>
-  M3x4mm Screws (X6)<br>
-  10mm Brass Standoffs (X3)<br>
-  3D-Printed Case <br>
-  Watch Strap (20mm Thick)<br>
-  External FTDI/CP2102 USB-TTL converter<br>
+     ESP32 Wrover-B (4 or 8Mb) 
+     HPDL-1414 Segmented Display  
+      0.91'' OLED Display 
+     SHT20 Temperature/Humidity Sensor 
+     MPU-9250 Gyroscope/Accelerometer/Magnetometer 
+     Tactile Switches (3) 
+     Various SMD Resistors/Capacitors (0608 Resistors)
+     32.768kHz ±20ppm Crystal
+     TP4056 
+     DW01A  
+     FS8205A
+     HX4004 DC-DC Step up (LDO) 
+     TPS62203DBVR DC-DC Step Down (buck)
+     10uH Inductor
+     3.7 LiPo Battery 
+     ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  
+     right angle tactile switch 
+     PCB (from Gerber File attached)
+     M3x4mm Screws (X6)
+     10mm Brass Standoffs (X3)
+     3D-Printed Case 
+     Watch Strap (20mm Thick)
+     External FTDI/CP2102 USB-TTL converter
 # TODO
      Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
      Make an addon with the modular breakouts (I2C/ UART)
