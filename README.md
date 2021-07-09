@@ -5,8 +5,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/espTesterPCB1.jpg"
      width ="300" height="250" style="float:right">
 # IN PROGRESS
-    --> waiting on shipping, and figuring out android dev docs has this project slowly moving along
-      should be finished by August 2021
+    --> waiting on shipping and hardware testing
 
 # Features
   Watch based around the ESP32 and HPDL1414. <br>
@@ -18,8 +17,8 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
   Chrome Dino Game  <br>
   Space Invaders Game <br>
    **footprint is there but currently no way to solder on MPU-9250** <br>
-
-
+   Update WiFi networks and time over a hosted website incase there are no known networks around and time is off.
+   
 # Schematic
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Schematic_esp32SmartWatch_2021-07-04.png" width="650" height="500">
 
@@ -55,6 +54,6 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED<br>
   External FTDI/CP2102 USB-TTL converter<br>
 # TODO
   Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
-  Finish Android Application <br>
+  Finish Android Application (web UI takes place of this for now) <br>
   Finish BLE Server implementation (accepts data and updates internal filesystem, still testing though!) <br>
   
