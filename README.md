@@ -25,6 +25,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
 # Gerber / BOM
        check out the Manufacturing Files for these!
        I got most components at LCSC (excluding HPDL-1414)
+       PCB made at JLCPCB
   <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenFRONT.svg" width="200" height ="200">
   <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenBACK.svg" width="200" height ="200" style="float:right">
        
@@ -53,7 +54,22 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
   Watch Strap (20mm Thick)<br>
   External FTDI/CP2102 USB-TTL converter<br>
 # TODO
-  Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
-  Finish Android Application (web UI takes place of this for now) <br>
-  Finish BLE Server implementation (accepts data and updates internal filesystem, still testing though!) <br>
-  
+     Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
+     Make an addon with the modular breakouts (I2C/ UART)
+               --> Raspberry pi 0 (with something cool idk, personal assistant?)
+               --> SD Card (SPI in Software, would need both ports)
+               --> Geiger counter
+               --> C02 Monitor
+               --> Smart home / MQTT control (would need a UI sub directory added)
+               --> Connect LoRa and control the smart farm! (this would take awhile)
+# Would Be Nice:
+     Waterproof case
+     Glass over screens
+     smaller PCB (if possible)
+     bigger battery
+     move buttons to bottom layer / change to right angled tactile buttons
+     Use external RTC (PCF8563M / C434478)
+     Android Application (web UI takes place of this for now)
+     Use BLE Server implementation (commented out at bottom of code) --> 
+          accepts JSON data and updates internal filesystem
+          Web Server uses same functions and tested, BLE with JSON is UNTESTED
