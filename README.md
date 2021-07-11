@@ -68,7 +68,8 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      smaller PCB (if possible)
      bigger battery
      move buttons to bottom layer / change to right angled tactile buttons
-     Use external RTC (DS3231 /LCSC#) OR (PCF8563M / C434478)
+     Use external RTC (DS3231 /C9866) OR (PCF8563M / C434478)
+                      (part  / LCSC)
      Android Application (web UI takes place of this for now)
      Use BLE Server implementation (commented out at bottom of code) --> 
           accepts JSON data and updates internal filesystem
