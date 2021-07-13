@@ -23,9 +23,21 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Schematic_esp32SmartWatch_2021-07-04.png" width="650" height="500">
 
 # Gerber / BOM
-       check out the Manufacturing Files for these!
-       I got most components at LCSC (excluding HPDL-1414)
-       PCB made at JLCPCB
+      check out the Manufacturing Files folder for these!
+      I got most normal components at LCSC (excluding those listed below)
+      PCB made at JLCPCB
+ <br>
+ <a href="https://lcsc.com/">LCSC</a><br>
+ <a href="https://jlcpcb.com/">JLCPCB</a>
+ <br><br>
+ 
+  **THINGS NOT BOUGHT FROM LCSC:** 
+ 
+ <a href ="https://www.amazon.com/dp/B08215N9R8/ref=emc_b_5_t" >3.7v 320mAh LiPo on Amazon</a><br>
+ <a href ="https://www.amazon.com/dp/B08NGL1PQ2?psc=1&ref=ppx_yo2_dt_b_product_details">0.91'' OLED Display on Amazon</a><br>
+ <a href ="https://www.amazon.com/dp/B076BNC876?psc=1&ref=ppx_yo2_dt_b_product_details"> 20mm Leather Watch Strapon Amazon </a><br>
+ <a href ="https://www.ebay.com/itm/303806129405?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649"> EBAY HPDL-1414 (not guaranteed)</a><br>**EBAY AND AMAZON LINKS/PRODUCTS EXPIRE, YOU'LL NEED TO SEARCH FOR HPDL-1414 WHEREVER YOU NORMALLY SOURCE ODD COMPONENTS**<br>
+  
   <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenFRONT.svg" width="200" height ="200">
   <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenBACK.svg" width="200" height ="200" style="float:right">
        
@@ -44,7 +56,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      HX4004 DC-DC Step up (LDO) 
      TPS62203DBVR DC-DC Step Down (buck)
      10uH Inductor
-     3.7 LiPo Battery 
+     3.7v 320mAh LiPo Battery
      ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  
      right angle tactile switch 
      PCB (from Gerber File attached)
@@ -53,6 +65,8 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      3D-Printed Case 
      Watch Strap (20mm Thick)
      External FTDI/CP2102 USB-TTL converter
+     
+ <a href ="http://www.farnell.com/datasheets/76528.pdf">HPDL-1414 Datasheet</a>
 # TODO
      Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
      Make an addon with the modular breakouts (I2C/ UART)
@@ -66,7 +80,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      Waterproof case
      Glass over screens
      smaller PCB (if possible)
-     bigger battery
+     bigger battery (needs to fit inside the case!)
      move buttons to bottom layer / change to right angled tactile buttons
      Use external RTC (DS3231 /C9866) OR (PCF8563M / C434478)
                       (part  / LCSC)
