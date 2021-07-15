@@ -77,7 +77,8 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
                --> Smart home / MQTT control (would need a UI sub directory added)
                --> Connect LoRa and control the smart farm! (this would take awhile)
 # Would Be Nice:
-     Waterproof case
+     Waterproof case (hasunCast/PCB potting/ Resin)
+     breakout SPI 
      Glass over screens
      smaller PCB (if possible)
      bigger battery (needs to fit inside the case!)
