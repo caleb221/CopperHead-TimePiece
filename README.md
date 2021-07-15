@@ -55,8 +55,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      DW01A  
      FS8205A
      HX4004 DC-DC Step up (LDO) 
-     TPS62203DBVR DC-DC Step Down (buck)
-     10uH Inductor
+     XC6203P332PR DC-DC Regulator (LDO)
      3.7v 320mAh LiPo Battery
      ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  
      right angle tactile switch 
