@@ -34,9 +34,13 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
  
   **THINGS NOT BOUGHT FROM LCSC:** 
  
- <a href ="https://www.amazon.com/dp/B08215N9R8/ref=emc_b_5_t" >3.7v 320mAh LiPo on Amazon</a><br>
- <a href ="https://www.amazon.com/dp/B08NGL1PQ2?psc=1&ref=ppx_yo2_dt_b_product_details">0.91'' OLED Display on Amazon</a><br>
- <a href ="https://www.amazon.com/dp/B076BNC876?psc=1&ref=ppx_yo2_dt_b_product_details"> 20mm Leather Watch Strapon Amazon </a><br>
+ <a href ="https://www.amazon.com/dp/B08215N9R8/ref=emc_b_5_t" >3.7v 320mAh LiPo (Amazon)</a>
+ **OR**
+ <a href = "https://www.adafruit.com/product/4236">3.7 420mAh Lipo (Adafruit)</a><br>
+ <a href ="https://www.amazon.com/dp/B08NGL1PQ2?psc=1&ref=ppx_yo2_dt_b_product_details">0.91'' OLED Display (Amazon)</a><br>
+ <a href ="https://www.amazon.com/dp/B076BNC876?psc=1&ref=ppx_yo2_dt_b_product_details"> 20mm Leather Watch Strap (Amazon) </a><br>
+ <a href="https://www.amazon.com/Uxcell-a14050600ux1057-Female-Hexagon-Standoff/dp/B00NQ87PVK/ref=sr_1_1?dchild=1&keywords=Spacers&pd_rd_r=28e88884-33a1-49d9-b134-ab3fc683e599&pd_rd_w=Q4tF6&pd_rd_wg=61MQw&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=N3VR7BWXXMX8RAYR7R4Y&pid=FPrDztn&qid=1626448252&refinements=p_n_feature_twenty-three_browse-bin%3A19047482011%2Cp_n_feature_twenty_browse-bin%3A17420943011%2Cp_n_feature_twenty-eight_browse-bin%3A19043863011&s=industrial&sr=1-1"> Brass Standoffs (Amazon)</a><br>
+ <a href ="https://www.amazon.com/10-M3-0-5-4mm-Countersunk-MonsterBolts/dp/B07983R7XC/ref=sr_1_1?dchild=1&keywords=Screws&pd_rd_r=509f2999-5a08-4e05-b24d-96c01ce9655b&pd_rd_w=dPIOh&pd_rd_wg=l7pkf&pf_rd_p=b4950e17-f2f6-494c-bba5-69a9d0aa3887&pf_rd_r=51BNB60JH1W9VNP5C807&pid=ONAxByd&qid=1626448556&refinements=p_n_feature_fourteen_browse-bin%3A11434052011%2Cp_n_feature_two_browse-bin%3A2292860011%2Cp_n_feature_twenty-eight_browse-bin%3A19043855011%2Cp_n_feature_thirteen_browse-bin%3A15245615011&s=industrial&sr=1-1">M3 x4mm black Screws (Amazon)</a><br>
  <a href ="https://www.ebay.com/itm/303806129405?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649"> EBAY HPDL-1414 (not guaranteed)</a><br>**EBAY AND AMAZON LINKS/PRODUCTS EXPIRE, YOU'LL NEED TO SEARCH FOR HPDL-1414 WHEREVER YOU NORMALLY SOURCE ODD COMPONENTS**<br>
   
   <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenFRONT.svg" width="200" height ="200">
