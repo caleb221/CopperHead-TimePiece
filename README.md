@@ -44,7 +44,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      PCB (from Gerber File attached)
      M3x4mm Screws (X6)
      10mm Brass Standoffs (X3)
-     3D-Printed Case 
+     3D-Printed Case (STL file)
      Watch Strap (20mm Thick)
      External FTDI/CP2102 USB-TTL converter
      
