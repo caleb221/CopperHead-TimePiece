@@ -18,11 +18,12 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
   32Khz Crystal for accuracy during deep sleep<br>
   Temperature and Humidity readings <br>
   Battery Charging and monitoring <br>
-  I2C/UART modular breakout for future sensors/ICs <br>
+  MPU-950 Gyroscope/Accelerometer/Magenetometer (Compass)<br>
+  MEMS Analog Microphone (to be used with TF-Lite Speech Recognition for wake words / personal assistant)<br>
+  I2C/UART/SPI modular breakout for future sensors/ICs <br>
   Chrome Dino Game  <br>
   Space Invaders Game <br>
-   **footprint is there but currently no way to solder on MPU-9250** <br>
-   Update WiFi networks and time over a hosted website incase there are no known networks around and time is off.
+  Update WiFi networks and system time over a hosted website incase there are no known networks around and time is off.
    
 # Schematic
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Schematic_esp32SmartWatch_2021-07-22.png" width="700" height="500">  
