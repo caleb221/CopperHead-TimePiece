@@ -38,7 +38,10 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      FS8205A
      HX4004 DC-DC Step up (LDO) 
      XC6203P332PR DC-DC Regulator (LDO)
-     3.7v 320mAh LiPo Battery
+     GMA3722H11-F42 MEMS Analog Microphone
+     OPA344NA Analog Op Amp
+     TYPE-C-31-M-17 USB-C Connector (6-Pin Power Only) 
+     3.7v 320mAh/420mAh LiPo Battery
      ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  
      right angle tactile switch 
      PCB (from Gerber File attached)
