@@ -6,6 +6,11 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      width ="300" height="250" style="float:right">
 # IN PROGRESS
     --> waiting on shipping and hardware testing
+    --> WILL BE ABLE TO SOLDER ON MPU9250 SOON
+    --> TEST MEMS MICROPHONE ANALOG CIRCUIT (read with I2S)
+        
+  Add personal Assistant with Mic using:
+  <a href="https://www.survivingwithandroid.com/esp32-tensorflow-micro-speech-i2s-external-microphone/">ESP32-I2S WITH TENSORFLOW MICRO</a>
 
 # Features
   Watch based around the ESP32 and HPDL1414. <br>
