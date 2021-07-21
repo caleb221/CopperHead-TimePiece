@@ -1,6 +1,6 @@
 # CopperHead-TimePiece
 A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x35mm**<br>
-<img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/testPCB1.jpg"
+<img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/testPCB2.jpg"
      width ="250" height="250">
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/espTesterPCB1.jpg"
      width ="300" height="250" style="float:right">
@@ -94,7 +94,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
 # TODO
      Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
      Make an addon with the modular breakouts (I2C/ UART)
-               --> Raspberry pi 0 (with something cool idk, personal assistant?)
+               --> Raspberry pi 0 (with something cool)
                --> SD Card (SPI in Software, would need both ports)
                --> Geiger counter
                --> C02 Monitor
@@ -102,7 +102,6 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
                --> Connect LoRa and control the smart farm! (this would take awhile)
 # Would Be Nice:
      Waterproof case (hasunCast/PCB potting/ Resin)
-     breakout SPI 
      Glass over screens
      smaller PCB (if possible)
      bigger battery (needs to fit inside the case!)
