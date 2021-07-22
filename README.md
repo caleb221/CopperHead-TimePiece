@@ -80,7 +80,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
             
 # Gerber / BOM
       check out the Manufacturing Files folder for these!
-      --> Gerber_PCB_esp32SmartWatch_2.zip  2-Layer Board **DOES NOT HAVE MICROPHONE**
+      --> Gerber_PCB_esp32SmartWatch_2.zip  2-Layer Board **OLD VERSION**
       --> Gerber_PCB_esp32SmartWatch_3.zip  4-Layer Board **MOST CURRENT**
       I got most normal components at LCSC (excluding those listed below)
       PCB made at JLCPCB
