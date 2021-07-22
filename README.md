@@ -103,7 +103,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
  
  
 # TODO
-     Get a stencil/ hot air blower so I can solder on the MPU-9250 <br>
+     Get a stencil <br>
      Make an addon with the modular breakouts (I2C/ UART)
                --> Raspberry pi 0 (with something cool)
                --> SD Card (SPI in Software, would need both ports)
