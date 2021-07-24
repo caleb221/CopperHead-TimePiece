@@ -37,7 +37,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      SHT20 Temperature/Humidity Sensor 
      MPU-9250 Gyroscope/Accelerometer/Magnetometer 
      Tactile Switches (3) 
-     Various SMD Resistors/Capacitors (0608 Resistors)
+     Various SMD Resistors/Capacitors (0603 Resistors)
      32.768kHz ±20ppm Crystal
      TP4056 
      DW01A  
