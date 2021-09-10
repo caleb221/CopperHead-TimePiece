@@ -14,7 +14,7 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
 # Features
   Watch based around the ESP32 and HPDL1414. <br>
   Update time with NTP in known WiFi Areas (SSIDS/Passwords saved in SPIFFS JSON file) <br>
-  32Khz Crystal for accuracy during deep sleep<br>
+  DS1307 Real Time Module<br>
   Temperature and Humidity readings <br>
   Battery Charging and monitoring <br>
   MPU-950 Gyroscope/Accelerometer/Magenetometer (Compass)<br>
@@ -32,10 +32,11 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
 # Hardware
      ESP32 Wrover-B (4 or 8Mb) 
      HPDL-1414 Segmented Display  
-      0.91'' OLED Display 
+     0.91'' OLED Display 
+     DS1307 RTC Module
      SHT20 Temperature/Humidity Sensor 
      MPU-9250 Gyroscope/Accelerometer/Magnetometer 
-     Tactile Switches (3) 
+     Tactile Switches (3 with 2 optional) 
      Various SMD Resistors/Capacitors (0603 Resistors)
      32.768kHz ±20ppm Crystal
      TP4056 
