@@ -6,8 +6,8 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      width ="250" height="250">
 
 # IN PROGRESS
-    --> TEST MEMS MIC / IMU
-        
+    --> BE SURE TO GET THE MOST UP TO DATE FILES AS THERE ARE SEVERAL ITERATIONS
+    --> TEST MEMS MIC / IMU    
   Add personal Assistant with Mic using:
   <a href="https://www.survivingwithandroid.com/esp32-tensorflow-micro-speech-i2s-external-microphone/">ESP32-I2S WITH TENSORFLOW MICRO</a>
 
