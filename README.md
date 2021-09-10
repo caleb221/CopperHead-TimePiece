@@ -49,7 +49,9 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
      TYPE-C-31-M-17 USB-C Connector (6-Pin Power Only) 
      3.7v 320mAh/420mAh LiPo Battery
      ZH1.5 SMD Right Angle Connectors (4 and 2 pin female)  
-     right angle tactile switch 
+     right angle tactile switch
+     Tactile Buttons
+     USB-C Power connector
      PCB (from Gerber File attached)
      M3x4mm Screws (X6)
      10mm Brass Standoffs (X3)
