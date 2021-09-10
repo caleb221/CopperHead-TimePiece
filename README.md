@@ -26,8 +26,8 @@ A 'Retro' ESP32 Based Smart watch using an HPDL-1414 and an .91'' OLED <br>**42x
    
 # Schematic
 <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Schematic_esp32SmartWatch_2021-09-10.png" width="700" height="500">  
-  <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenFRONT.svg" width="200" height ="200">
-  <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/cleanGreenBACK.svg" width="200" height ="200" style="float:right">
+  <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Photo View_2021-09-10.svg" width="250" height ="250">
+  <img src="https://github.com/caleb221/CopperHead-TimePiece/blob/main/img/Photo View_2021-09-10 (1).svg" width="250" height ="250" style="float:right">
        
 # Hardware
      ESP32 Wrover-B (4 or 8Mb) 
