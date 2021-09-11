@@ -1,0 +1,64 @@
+
+void makeWebsite(AsyncWebServerRequest *request) {
+
+ String webSite ="<!DOCTYPE html> <html>";
+  webSite+="<head><style>";
+  webSite+=" body{color: #00aa00;background-color: #333;font-size: 20px;}";
+  webSite+=" button{font-size: 30px;color: #333;background-color: #00dd00;}";
+  webSite+="input {font-size: 25px;color: #00dd00;width: 25%;background-color: #333;}";
+  webSite+="#spiffsTime{color: antiquewhite;font-size: 45px;";
+
+  
+  webSite+="</style></head>";
+  webSite+="<body>";
+  webSite+="<script>";
+webSite+=" function sendCurrentTime(){\n";
+webSite+="var myDate = new Date();var year = myDate.getYear();var month = myDate.getMonth();\n";
+webSite+=" var day = myDate.getDay();var hour = myDate.getHours();var minute = myDate.getMinutes();var seconds = myDate.getSeconds();\n";
+webSite+="alert('Date will be set to:'+hour+':'+minute+':'+seconds+''+day+'/'+month+'/'+year);\n";
+webSite+="var xhr = new XMLHttpRequest();\n";
+webSite+="xhr.open('POST','/updateTimeData',true);\n";
+webSite+="xhr.setRequestHeader('content-type','application/json');\n";
+webSite+="xhr.send(\n";
+webSite+="JSON.stringify({yr:year,mnt:month,dy:day,hr:hour,mint:minute,sec:seconds\n";
+webSite+="}));";
+webSite+="";
+webSite+="}";//END UPDATE TIME SEND FUNCTION
+webSite+="\n\nfunction sendNewConf(){\n";//SEND NEW CONFIG FUNCTION
+webSite+="var newID = document.getElementById('W').value;\n";
+webSite+="var newPass = document.getElementById('P').value;\n";
+webSite+="var xhr = new XMLHttpRequest(); \n";
+webSite+="xhr.open('POST','/addConf',true);\n";
+webSite+="xhr.setRequestHeader('content-type','application/json');\n";
+webSite+="var sendData = JSON.stringify({ W:newID , P:newPass }); \n";
+webSite+=" xhr.send(sendData); }";//END NEW CONFIG FUNCTION
+webSite+="";//SHOW KNOWN NETS FUNCTION
+webSite+="\n\n function showKnownNets(){\n";
+webSite+="var elTv = document.getElementById('knownNets');const newReq = new XMLHttpRequest();\n";
+webSite+="var url = '/getConf'; newReq.open('POST',url);\n";
+webSite+="newReq.onreadystatechange=(e)=>{\n";
+webSite+="elTv.innerText+=newReq.responseText;\n";
+webSite+="}\n newReq.send();}";//END KNOWN NETS FUNCTION
+webSite+="\n\nfunction getSpiffsTime(){\n";
+webSite+="var elTv = document.getElementById('knownNets'); const newReq = new XMLHttpRequest();\n";
+webSite+="var url = '/getTime';\n";
+webSite+="newReq.open('GET',url);";
+webSite+="newReq.onreadystatechange=(e)=>{\n";
+webSite+="elTv.innerText+=newReq.responseText;\n";
+webSite+="}newReq.send();";
+webSite+="}";
+webSite+="";
+
+  webSite+="</script>";
+  webSite+="<h1>CopperHead Time Piece </h1>";
+  webSite+="<button onclick='sendCurrentTime()'> Update Time</button><br>";
+  webSite+="<button onclick='showKnownNets()'>Known Networks</button><br>";
+  webSite+="<button onclick='getSpiffsTime()'>Watch Time</button><br><br>";
+  webSite+="<input type='text' id='W' value='WiFi Name'><br>";
+  webSite+="<input type='text' id='P' value='WiFi PWD'><br>";
+  webSite+="<input type='button' value='Send!' onclick='sendNewConf()'>";
+  webSite+="<br><p id='knownNets'></p>";
+  webSite+="\n";  
+  webSite+="</body></html>";
+  request->send(200, "text/html", webSite);
+}

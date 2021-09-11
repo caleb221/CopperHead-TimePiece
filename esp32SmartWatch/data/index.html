@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body{
+        color: #00aa00;background-color: #333;font-size: 20px;
+    }
+    button{
+        font-size: 30px;color: #333;       
+        background-color: #00dd00;
+    }
+    
+    input {        
+        font-size: 25px;color: #00dd00;
+        width: 25%;
+        background-color: #333;
+    }
+    #knownNets{
+        color: antiquewhite;
+        font-size: 45px;
+    }
+</style>
+<head>
+</head>
+<body>
+    <h1>CopperHead Time Piece </h1>
+    <button onclick='sendCurrentTime()'>Update Time</button>
+    <br><br>
+    <button onclick='showKnownNets()'>Known Networks</button><br>
+    <button onclick='getSpiffsTime()'>Watch Time</button><br>
+    <button onclick='getSensorData()'>Sensor Data</button><br>
+    <br>
+    <input type='text' id='W' value='WiFi Name'><br>
+    <input type='text' id='P' value='WiFi PWD'><br>
+    <input type='button' value='Send!' onclick='sendNewConf()'>
+    <br>
+    <p id='knownNets'></p>
+    <script>
+    
+    var elTv = document.getElementById('knownNets');
+        function sendCurrentTime()
+        {
+            var myDate = new Date();
+            var year = myDate.getYear();
+            var month = myDate.getMonth();
+            var day = myDate.getDay();
+            var hour = myDate.getHours();
+            var minute = myDate.getMinutes();
+            var seconds = myDate.getSeconds();
+            alert('Date will be set to: '+hour+':'+minute+':'+seconds+' '+day+'/'+month+'/'+year);
+            
+            
+            
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST','/updateTimeData',true);
+            xhr.setRequestHeader('content-type','application/json');
+            var dataOut = JSON.stringify({
+                yr:year,
+                mnt:month,
+                dy:day,
+                hr:hour,
+                mint:minute,
+                sec:seconds
+            })
+            alert(dataOut);
+            xhr.send(dataOut); 
+            xhr.onreadystatechange=(e)=>{
+                if(xhr.status===200){
+                    alert('Time was updated!');
+                    console.log(xhr.responseText);    
+                }
+                else
+                {
+                    alert('Server Error!');
+                }
+            } 
+        }
+        
+        function sendNewConf()
+        {   
+            var newID = document.getElementById('W').value;
+            var newPass = document.getElementById('P').value;
+            var xhr = new XMLHttpRequest(); xhr.open('POST','/addConf',true);
+            xhr.setRequestHeader('content-type','application/json');
+            var sendData = JSON.stringify({
+                W:newID , 
+                P:newPass 
+            });
+            xhr.send(sendData);
+        }
+        
+        function getSpiffsTime()
+        {
+            const newReq = new XMLHttpRequest();
+            var url = '/getTime';
+            newReq.open('GET',url);
+            newReq.onreadystatechange=(e)=>{
+                
+                if(newReq.status===200){
+                var respJSON = JSON.parse(newReq.responseText);
+            var year = respJSON['yr'];
+            var month =respJSON['mnt'];
+            var day = respJSON['dy'];
+            var hour = respJSON['hr'];
+            var minute = respJSON['mint'];
+            var seconds = respJSON['sec'];
+            var timeString =  hour+':'+minute+':'+seconds+' '+day+'/'+month+'/'+year;
+            elTv.innerText=timeString;        
+                }
+                else
+                {
+                    alert('Server Error!');
+                }
+                
+            }
+            newReq.send();
+        }
+            
+        function showKnownNets()
+        {
+            const newReq = new XMLHttpRequest();
+            var url = '/getConf';
+             newReq.open('POST',url);
+             newReq.onreadystatechange=(e)=>{
+             
+             if(newReq.status===200)
+             {
+                var respJSON = JSON.parse(newReq.responseText);
+                elTv.innerText=respJSON['W'];
+                //elTv.innerHTML+='<br>';
+                //elTv.innerText+=respJSON['W'];
+            }
+              else
+              {
+                alert('Server Error!');
+              }
+            }   
+            newReq.send();
+        }
+        function getSensorData()
+        {
+            const newReq = new XMLHttpRequest();
+            var url = '/getSensorData';
+             newReq.open('GET',url);
+             newReq.onreadystatechange=(e)=>{
+             
+             if(newReq.status===200)
+             {
+                var respJSON = JSON.parse(newReq.responseText);
+                elTv.innerText='Battery: '+respJSON['B'];
+                elTv.innerHTML+='<br>'; 
+                elTv.innerText='Temperature: '+respJSON['T'];
+                elTv.innerHTML+='<br>'; 
+                elTv.innerText='Humidity: '+respJSON['H'];
+                elTv.innerHTML+='<br>';  
+                //elTv.innerText='Battery: '+respJSON['B'];
+                //elTv.innerHTML+='<br>'; 
+            }
+              else
+              {
+                alert('Server Error!');
+              }
+            }   
+            newReq.send();
+        }
+    </script>
+</body></html>
